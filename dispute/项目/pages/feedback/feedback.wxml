@@ -1,0 +1,14 @@
+<!--pages/feedback/feedback.wxml-->
+<textarea class='textare'>
+<text class='word'>可以输入<text class='word_num'>200</text>个字</text>
+</textarea>
+<view class='img'></view>
+<view class='img'></view>
+<view class='img'></view>
+<view class='img'>
+<view class='aa'><image src='http://39.105.101.0/assets/tj.png'></image></view>
+<text>添加照片</text>
+</view>
+<view >
+   <button class='submit' show-message-card='true' open-type="contact">提交</button>
+</view>

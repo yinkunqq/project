@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<!-- 项目我的 -->
+<view class='wechat_all'>
+  <!-- 用户 -->
+  <view class='wechat_user'>
+    <!-- 头像及昵称 -->
+    <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <!-- 下面的内容 -->
+  <view class='wechat_content'>
+    <!-- minemsg跳转到我的消息 -->
+    <button plain='true' bindtap='minemsg'>我的消息<text style='margin-left:48%;' class='wechat_news'>11个新消息 </text><text class='wechat_point'>></text></button>
+    <button plain='true' bindtap='activity'>我的活动<text class='wechat_point' style='margin-left:70%;'>></text></button>
+    <button plain='true' bindtap='address'>我的地址<text class='wechat_point' style='margin-left:70%;'>></text></button>
+    <button plain='true' bindtap='feedback'>我的申诉<text class='wechat_point' style='margin-left:70%;'>></text></button>
+  </view>
+  <view class='wechat_buttom'>
+  </view>
+</view>

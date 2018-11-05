@@ -1,0 +1,11 @@
+<!--pages/activity/activity.wxml-->
+  
+<view class='title'>你喜欢这件衣服吗？ </view>   <!--标题-->
+
+<view class='middle'><image src='http://39.105.101.0/assets/wdbg_3.png'></image></view> <!-- 图像 -->
+
+<view class='bottom'>   <!--底部-->
+  <view class='time'><text>2018-08-08 20:23:45</text></view>
+  <view class='dianzan'><text class='number'>8531</text><text>个赞</text></view> 
+</view>
+

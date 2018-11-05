@@ -1,0 +1,28 @@
+<!--pages/newdres/newdres.wxml-->
+<view class='q1'>
+  <view class='firstname'>收货人: </view> 
+  <view class='input'><input  value='张三'></input></view>
+</view>
+<view class='q1'>
+  <view class='firstname'>联系方式: </view> 
+  <view class='input'><input  value='15120080383'></input></view>
+</view>
+<view class='q1'>
+  <view class='firstname'>所在地区: </view> 
+  <view class='input'><input  value='北京昌平区'></input></view>
+</view>
+<view class='q1'>
+  <view class='firstname'>详细地址: </view> 
+  <view class='input'><input  value='街道、楼牌号等'></input></view>
+</view>
+
+<view class='q2'>
+  <view >
+   <button class='submit' show-message-card='true' open-type="contact">提交</button>
+  </view>
+</view>
+
+<view class='q4'>
+  <view><radio value='123' color='orange' checked></radio>设为默认地址</view>
+</view>
+

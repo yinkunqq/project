@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/newdres/newdres",
+    "pages/minemsg/minemsg",
+    "pages/callback/callback",
+    "pages/activity/activity",
+    "pages/feedback/feedback",
+    "pages/address/address",
+    "pages/rule/rule",
+    "pages/discuss/discuss"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

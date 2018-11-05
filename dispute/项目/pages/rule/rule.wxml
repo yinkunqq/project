@@ -1,0 +1,14 @@
+<!--pages/activity/activity.wxml-->
+<!-- <view class='top'>
+  <view class='fan'><image class='img' src='http://47.95.6.137/img/assets/%e8%bf%94%e5%9b%9e%402x.png'></image></view>
+  <view class='text'><text>活动规则</text></view>
+</view> -->
+<view class='content'>
+  <text>
+      1、针对商品进行评价，认为该商品是“赞”还是“踩”。\n
+      2、获赞和获踩最多的两位用户将分别免费获得该商品。\n
+      3、活动结束后将会对获赞最高的两人评论进行公示。\n
+      4、公示期间，其他用户认为获奖评论是抄袭自己的评论，可通过公示页面进行申诉，当内容被认定抄袭时，奖品发放将会根据情况另行安排。\n
+      5、活动的最终解释权归举办方拥有。
+  </text>
+</view>

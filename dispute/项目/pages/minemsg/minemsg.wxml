@@ -1,0 +1,56 @@
+<view class='wechat_all'>
+  <!-- 我的消息--头部 点赞-->
+  <view class='head'>
+    <view class='wechat_special'>
+      <button class='wechat_click' plain='true'>点赞</button>
+    </view>
+    <view class='wechat_normal'>
+      <button class='wechat_click' plain='true' bindtap='callback'>回复</button>
+    </view>
+  </view>
+  <!-- 我的消息--下面 点赞-->
+  <view class='content'>
+    <view class='content_child'>
+      <image src='http://59.110.227.10/Yii/headimg.jpg' class='headimg'></image>
+      <text class='username'>周哥哥</text>
+      <text class='addtime'>10-31</text>
+      <text class='click'>赞了你的评论</text>
+      <image src='http://59.110.227.10/Yii/icon1.png' class='icon'></image>
+    </view>
+    <view class='content_child'>
+      <image src='http://59.110.227.10/Yii/headimg.jpg' class='headimg'></image>
+      <text class='username'>周哥哥</text>
+      <text class='addtime'>10-31</text>
+      <text class='click'>赞了你的评论</text>
+      <image src='http://59.110.227.10/Yii/icon1.png' class='icon'></image>
+    </view>
+    <view class='content_child'>
+      <image src='http://59.110.227.10/Yii/headimg.jpg' class='headimg'></image>
+      <text class='username'>周哥哥</text>
+      <text class='addtime'>10-31</text>
+      <text class='click'>赞了你的评论</text>
+      <image src='http://59.110.227.10/Yii/icon1.png' class='icon'></image>
+    </view>
+    <view class='content_child'>
+      <image src='http://59.110.227.10/Yii/headimg.jpg' class='headimg'></image>
+      <text class='username'>周哥哥</text>
+      <text class='addtime'>10-31</text>
+      <text class='click'>赞了你的评论</text>
+      <image src='http://59.110.227.10/Yii/icon1.png' class='icon'></image>
+    </view>
+    <view class='content_child'>
+      <image src='http://59.110.227.10/Yii/headimg.jpg' class='headimg'></image>
+      <text class='username'>周哥哥</text>
+      <text class='addtime'>10-31</text>
+      <text class='click'>赞了你的评论</text>
+      <image src='http://59.110.227.10/Yii/icon1.png' class='icon'></image>
+    </view>
+    <view class='content_child'>
+      <image src='http://59.110.227.10/Yii/headimg.jpg' class='headimg'></image>
+      <text class='username'>周哥哥</text>
+      <text class='addtime'>10-31</text>
+      <text class='click'>赞了你的评论</text>
+      <image src='http://59.110.227.10/Yii/icon1.png' class='icon'></image>
+    </view>
+  </view>
+</view>

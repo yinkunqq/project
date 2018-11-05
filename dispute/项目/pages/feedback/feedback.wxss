@@ -1,0 +1,59 @@
+/* pages/feedback/feedback.wxss */
+.textare{
+  border: solid 1rpx #DDDDDD;
+  border-radius: 5px;
+  width: 692rpx;
+  height:410rpx;
+  margin-left: 29rpx;
+  margin-top: 25rpx;
+}
+.word{
+  float: right;
+  margin-top: 360rpx;
+  margin-right: 10rpx;
+  width: 220rpx;
+  height: 40rpx;
+  font-size: 14px;
+  color: #C6C6C6;
+}
+.word_num{
+  color: #FF422A;
+}
+.img{
+  background-color: #FFF3F3F3;
+  background-size:100% 100%;
+  width: 132rpx;
+  height: 132rpx;
+  margin-left: 29rpx;
+  margin-top: 30rpx;
+  float: left;
+}
+.aa image{
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 46rpx;
+  margin-top: 30rpx;
+}
+.img text{
+  font-size: 24rpx;
+  width: 100rpx;
+  height: 34rpx;
+  color: #C6C6C6;
+  margin-left: 20rpx;
+}
+.submit{
+  height: 68rpx;
+  width: 380rpx;
+  border-radius: 20rpx;
+  background-image: url("http://39.105.101.0/assets/anbg_2.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  margin-left: 93.5px;
+  margin-top: 150px;
+  font-size: 28rpx;
+  color: white;
+}
+.submit text{
+  color: #ffffff;
+  margin-left: 80px;
+}

@@ -1,0 +1,68 @@
+/* pages/newdres/newdres.wxss *//* pages/newdres/newdres.wxss */
+.q1{
+  width: 100%;
+  height: 150rpx;
+  border-top: solid 1rpx #F2F2F2;
+}
+
+.q1 view{
+  float: left;
+  line-height: 150rpx;
+  margin-left: 20rpx;
+}
+.q1 input{
+  margin-left: 60rpx;
+  margin-top: 50rpx;
+  
+}
+.q2{
+  width: 100%;
+  height: 80rpx;
+ 
+  border-top: solid 1rpx #F2F2F2;
+  
+}
+.q3{
+
+  width: 400rpx;
+  height: 100rpx;
+  margin-top: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  margin-left: 160rpx;
+  background-image: url("http://39.105.101.0/assets/an_h_1.png");
+  background-size: 400rpx 200rrpx;
+}
+.q4{
+  width: 400rpx;
+  height: 100rpx;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  line-height: 100rpx;
+  margin-left: 160rpx;
+}
+.firstname{
+  font-size: 24rpx;
+  color: #4A4A4A;
+}
+.input{
+  font-size: 30rpx;
+  color: #4A4A4A;
+}
+.submit{
+  height: 68rpx;
+  width: 380rpx;
+  border-radius: 20rpx;
+  background-image: url("http://39.105.101.0/assets/anbg_2.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  font-size: 28rpx;
+  color: white;
+  margin-top: 20rpx;
+}
+
+
+
+
+

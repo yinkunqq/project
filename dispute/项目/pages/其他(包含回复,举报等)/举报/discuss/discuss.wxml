@@ -1,0 +1,96 @@
+
+
+<!-- 头部 -->
+<view class='top'>
+ 
+<!-- 用户头像部分 -->
+   <view class='tchild'>        
+       <image class="head" src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1946205328,3631959401&fm=200&gp=0.jpg'></image>               <!-- 存放头像  -->
+      <text class='tnickname'>妖王</text>            <!-- 存放昵称  -->
+      <view class='tbefore'>
+          <text>1分钟前</text>                       <!--  几分钟前  -->
+      </view>
+   </view>  
+
+<!-- 发布评论部分  -->
+   <view class='tchild'>
+
+      <view class='l'>
+            <text>你玩英雄联盟是真他妈的菜！！！</text> 
+      </view>
+
+      <view class='r'>
+
+        <view class='dnumber'>
+            <text>6666</text>            <!--  评论数   -->
+        </view>
+
+        <view class='rimg'>                   
+          <image src='http://39.105.18.210/img/zan.png'>
+          </image>             
+        </view>        <!-- 点赞头像  -->
+
+      </view>
+   </view>
+
+<!-- 查看原评论部分  -->
+   <view class='tchild'>
+
+        <view class='tl'>
+            <navigator url="../logs/logs">
+                 <view>查看原评论</view>    <!-- 点击跳转logs/logs -->
+            </navigator>
+        </view>      
+
+        <view class='tr'>   
+
+           <view class='trl'>
+                <view><image src='http://39.105.18.210/img/xiang.png'></image> </view>    <!-- 分享图标 -->
+                <view><text>6666</text> </view>   <!--  分享次数-->
+           </view> 
+
+           <view class='trr'>
+                <view><image src='http://39.105.18.210/img/discuss.png'></image></view>    <!-- 评论图标 -->
+                <view><text>9999</text></view>  <!-- 评论次数  --> 
+           </view>
+          
+        </view>  
+
+   </view>
+<!-- end  -->
+</view>
+
+
+<!-- 评论区 -->
+<view class='top'>
+       <view class='tchild'>        
+        <image class="head" src='http://39.105.18.210/img/zan.png'></image>               <!-- 存放头像  -->
+        <text class='tnickname'>我说短</text>            <!-- 存放昵称  -->
+        <view class='tbefore'>
+            <text>1分钟前</text>                         <!--  几分钟前  -->
+        </view>
+   </view>  
+ <!-- end  -->  
+
+<!-- 发布评论部分  -->
+   <view class='tchild'>
+
+      <view class='l'>
+            <text>你玩英雄联盟是真他妈的菜！！！菜的不行！！！不是我说你！！！</text> 
+      </view>
+
+      <view class='r'>
+        <view class='dnumber'>
+            <text>6666</text>            <!--  评论数   -->
+        </view>
+
+        <view class='rimg'>                   
+          <image src='http://39.105.18.210/img/zan.png'>
+          </image>             
+        </view>        <!-- 点赞头像  -->
+      </view>
+   </view> 
+</view>
+
+
+<view class='views'><text>共455条回复</text></view>

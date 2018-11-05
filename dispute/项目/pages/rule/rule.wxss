@@ -1,0 +1,37 @@
+/* 
+.top{
+  background-color: #FFFFFFFF;
+  box-shadow: 0 1px 0 0 rgba(237,237,237,0.50);
+  width: auto;
+  height: 88rpx;
+}
+.text{
+  width: 128rpx;
+  height: 44rpx;
+  text-align: center;
+  margin-top: 33rpx;
+  margin-left: 279rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 16px;
+}
+.fan{
+  width: 34rpx;
+  height: 34rpx;
+  margin-left: 4.4%;
+  float: left;
+}
+.img{
+  width: 34rpx;
+  height: 34rpx;
+} */
+.content{
+  width:auto;
+  height: 700rpx;
+  margin-top: 4.4%;
+  font-family: PingFang-SC-Medium;
+  font-size: 14px;
+  color: #535353;
+  line-height: 22px;
+  padding-left: 3.3%;
+  padding-right: 1.3%;
+}
