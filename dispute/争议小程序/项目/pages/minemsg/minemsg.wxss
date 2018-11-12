@@ -1,0 +1,87 @@
+/* pages/minemsg/minemsg.wxss */
+.head{
+  height: 130rpx;
+  float: left;
+  background: white;
+  width: 100%;
+}
+.wechat_special button{
+  color: #F15359;
+  border-radius: 0%;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-width: 4rpx;
+  border-bottom-color:#F15359;
+}
+.wechat_normal button{
+  color: #6E6E6E;
+  border-radius: 0%;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+.wechat_click{
+  width: 132rpx;
+  height: 88rpx;
+  font-size: 16px;
+  float: left;
+  margin-left: 160rpx;
+  margin-top: 42rpx;
+}
+
+.content{
+  background: #F4F4F4;
+  width: 100%;
+  height: 1120rpx;
+  float: left;
+}
+.content_child{
+  width: 686rpx;
+  height: 140rpx;
+  background: #FFFFFF;
+  border-radius: 14px;
+  margin-top: 26rpx;
+  margin-left: 30rpx;
+}
+
+.icon{
+  width: 110rpx;
+  height: 110rpx;
+  float: right;
+  margin-right: 40rpx;
+  margin-top: 15rpx;
+}
+.headimg{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  float: left;
+  margin-left: 40rpx;
+  margin-top: 18rpx;
+}
+
+.username{
+  font-size: 28rpx;
+  color: #6E6E6E;
+  float: left;
+  margin-left:24rpx;
+  margin-top: 28rpx;
+}
+.addtime{
+  font-size: 24rpx;
+  margin-top: 30rpx;
+  float: left;
+  margin-left:18rpx;
+  color: #B7B7B7;
+}
+.click{
+  font-size: 28rpx;
+  color: #6E6E6E;
+  float: left;
+  margin-left:-170rpx;
+  margin-top: 75rpx;
+}
+
+

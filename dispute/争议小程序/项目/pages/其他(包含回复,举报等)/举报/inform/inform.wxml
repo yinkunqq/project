@@ -1,0 +1,23 @@
+<!-- 头部 -->
+<!-- 中间举报人和内容 -->
+<view class='name'>举报<text class='yao'>妖王</text>的评论</view>
+<view class='content'>
+  <image class='img2' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540998467531&di=b0b1c73a65b2984348fb4dbafcbe04ce&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F0824ab18972bd407677763d971899e510fb30965.jpg'></image>
+  <text class='name2'>妖王</text>
+  <text class='time'>1分钟前</text>
+  <view class='content2'>不像其他的无线耳机呢，很喜欢这种拆分式的设计。另：出售右airpods耳机一只。</view>
+</view>
+<view class='option'>
+<radio-group>
+  <radio class='redio1'>垃圾营销</radio>
+  <radio class='redio2'>有害信息</radio>
+  <radio class='redio1'>违法信息</radio>
+  <radio class='redio2'>淫会社情</radio>
+  <radio class='redio1'>人身攻击</radio>
+  
+</radio-group>
+  
+</view>
+<view class='button'>
+  <text>举报</text>
+</view>

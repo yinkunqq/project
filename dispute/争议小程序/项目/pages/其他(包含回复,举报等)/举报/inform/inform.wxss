@@ -1,0 +1,106 @@
+/* 举报内容 */
+.name{
+  width: 250rpx;
+  height:40rpx;
+  margin-bottom: 1.8%;
+  margin-left: 6.4%;
+  font-family: PingFang-SC-Medium;
+  font-size: 14px;
+  color: #535353;
+  text-align: center;
+  margin-top: 4%;
+}
+.yao{
+  font-family: PingFang-SC-Medium;
+  font-size: 14px;
+  color: #3569da;
+  text-align: center;
+  line-height: 20px;
+}
+.content{
+  width: 100%;
+  height: 256rpx;
+  border-radius:20rpx; 
+  background-color: #E0E0E0;
+}
+
+/* 举报选项 */
+.option{
+  width: auto;
+  height:400rpx;
+  margin-top: 3.3%;
+}
+
+/* 提交按钮 */
+.button{
+  width: 620rpx;
+  height:90rpx;
+  background-image: url(http://47.95.6.137/img/assets/%e6%8c%89%e9%92%ae-%e7%ba%a2%401x.png);
+  background-size: 82% auto;
+  background-repeat: no-repeat;
+  background-position:center;
+  margin-top: 3.3%;
+  margin-left: 6.5%;
+  font-family: PingFang-SC-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top:7%;  
+}
+
+/* 举报选项 */
+.redio1{
+  font-size: 14px;
+  width: 200rpx;
+  height: 30rpx;
+  margin-left: 7%;
+  margin-top: 3.3%;
+}
+.redio2{
+  font-size: 14px;
+  width: 200rpx;
+  height: 30rpx;
+  margin-left: 24%;
+  margin-top: 3.3%;
+}
+/* 头像 */
+.img2{
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 5.6%;
+    margin-top: 3.3%;
+    border-radius:50rpx; 
+    float: left;
+}
+.name2{
+    font-family: PingFang-SC-Medium;
+    font-size: 14px;
+    color: #9A9A9A;
+    height: 24rpx;
+    margin-left: 1.6%;
+    float: left;
+    margin-top: 5.3%;
+    margin-bottom: 5%;
+}
+.time{
+  font-family: PingFang-SC-Regular;
+  font-size: 12px;
+  color: #C2C2C2;
+  margin-top: 5.3%;
+  float: left;
+  margin-left: 2%;
+}
+/* 举报内容 */
+.content2{
+  width: 580rpx;
+  height: 150rpx;
+  font-size: 14px;
+  color: #4A4A4A;
+  margin-left: 10.6%;
+ 
+  float: right;
+  margin-right: 15.7%;
+
+}
+
+

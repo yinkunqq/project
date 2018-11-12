@@ -1,0 +1,414 @@
+/* pages/index/index.wxss *//* pages/index/index.wxss */
+
+page{
+  background-color: #2916A4;
+  color: #9A9A9A;
+}
+
+.red{
+  color: red;
+}
+
+/* 顶部 */
+.header{
+  width: 750rpx;
+  height: 640rpx;
+  background-image: url("http://39.105.101.0/assets/bg_3.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* 活动规则 */
+.activ-role{
+  display: block;
+  float: right;
+  width: 140rpx;
+  height: 50rpx;
+  margin-top:40rpx;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  padding-top: 10rpx;
+  padding-left: 25rpx;
+  background-image: url("http://39.105.101.0/assets/hdgz_3.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 14rpx;
+}
+
+/* 活动产品 */
+.activ-pro{
+  clear: both;
+  display: block;
+  width: 675rpx;
+  height: 525rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  margin-left: 35rpx;
+}
+
+/* 活动图片 */
+.activ-img{
+  width: 630rpx;
+  height: 300rpx;
+  margin: 25rpx;
+}
+
+/* 牛批 */
+.nb{
+  float: left;
+  width: 250rpx;
+  height: 100rpx;
+  background-image: url("http://39.105.101.0/assets/nb_3.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50rpx;
+  padding-top: 7rpx;
+  margin-left: 60rpx;
+}
+
+/* 垃圾 */
+.lj{
+  float: left;
+  width: 250rpx;
+  height: 100rpx;
+  background-image: url("http://39.105.101.0/assets/nb_3.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50rpx;
+  padding-top: 7rpx;
+}
+.pk{
+  margin-top: 15rpx;
+  float: left;
+  width: 50rpx;
+  height: 70rpx;
+  background-image: url("http://39.105.101.0/assets/pk_2.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+.nb text, .lj text {
+  display: block;
+  clear: both;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+/* 活动日期 */
+.activ-date{
+  clear: both;
+  margin-left:30rpx;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+/* 主体 */
+.main{
+  background-color: #FFFFFF;
+  width: 640rpx;
+  border-radius: 20rpx;
+  margin-left: 35rpx;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+
+.main::after{
+  clear:both;
+  content: "";
+  display: block;
+  width: 0;
+  height:0;
+  visibility:hidden;
+}
+
+.comment{
+  border-bottom: solid 1rpx #C2C2C2;
+  margin: 10rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+/* 用户 */
+.comment-user{
+  float: left;
+  width: 510rpx;
+}
+
+/* 头像 */
+.comment-portrait{
+  float: left;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+}
+
+/* 名字 */
+.comment-name{
+  float: left;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  font-size: 35rpx;
+}
+
+/* 评论时间 */
+.comment-date{
+  color: #C2C2C2;
+  font-size: 24rpx;
+  padding-top: 10rpx;
+}
+
+/* 评论内容 */
+.comment-content{
+  clear: both;
+  font-size: 30rpx;
+  height: 100rpx;
+  width: 550rpx;
+}
+
+/* 赞 */
+.z-info{
+  float: right;
+  margin-left: 20rpx;
+}
+.z_img{
+  background-image: url('http://39.105.101.0/assets/z.png');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.zg_img{
+  background-image: url('http://39.105.18.210/img/zg.png');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* 评论底部 */
+.comment-foot{
+  clear: both;
+  display:flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+}
+.foot-left{
+  display:flex; 
+  flex-direction: row;
+}
+.foot-left view{
+  color: #4A90E2;
+}
+.foot-right{
+  display: flex;
+  flex-direction: row;
+}
+
+/* 转发 */
+.comment-forward{
+  background-image: url('http://39.105.101.0/assets/zf.png');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 50rpx;
+  height: 50rpx;
+}
+/* 评论数量 */
+.comment-count{
+  background-image: url('http://39.105.101.0/assets/pl.png');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 10rpx;
+}
+
+/* 上拉加载更多 */
+.next-page{
+  text-align: center;
+  color: #878787;
+  font-size: 28rpx;
+}
+
+/* 底部 */
+.footer{
+  display: flex;
+  margin-top: 20rpx;
+}
+.cy-tl{
+  background-image: url("http://39.105.101.0/assets/mscy_1.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 380rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-left: 150rpx;
+  margin-right: 20rpx;
+}
+.cy-user{
+  background-image: url("http://39.105.101.0/assets/user.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #EF752B;
+  border-radius: 40rpx;
+}
+/* 边框虚线 */
+.box-color{
+  border: dotted 4rpx #4A90E2;
+  padding: 20rpx;
+  border-radius: 30rpx;
+}
+/* 帮我点赞 */
+.my-info{
+  font-size: 35rpx;
+}
+.my-info::after{
+  clear:both;
+  content: "";
+  display: block;
+  width: 0;
+  height:0;
+  visibility:hidden;
+}
+.my-img{
+  display: block;
+  float: left;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-color: green;
+}
+.my-name{
+  display: block;
+  float: left;
+  margin-top: 25rpx;
+  margin-left: 15rpx;
+}
+.my-z{
+  color: red;
+}
+.my-z-info{
+  display: block;
+  float: right;
+  margin-top: 25rpx;
+  margin-right: 15rpx;
+}
+/* 我的评论 */
+.my-comment{
+  width: 540rpx;
+  height: 80rpx;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+}
+/* 邀请好友 */
+.yqhy{
+  background-image: url('http://39.105.101.0/assets/mscy_1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 400rpx;
+  height: 80rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 80rpx;
+  margin-left: 100rpx;
+  font-size: 30rpx;
+}
+
+/* 帮他点赞 */
+.btdz{
+  background-image: url('http://39.105.101.0/assets/an_l_3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 400rpx;
+  height: 80rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 80rpx;
+  margin-left: 100rpx;
+  font-size: 30rpx;
+}
+
+/* 获奖作品 */
+.prize{
+  background-image: url('http://39.105.101.0/assets/hj_3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 130rpx;
+  height: 130rpx;
+  position: absolute;
+  margin-left: 280rpx;
+}
+
+/* 遮罩层 */
+.open-view{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0rpx;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+/* 马上参与 */
+.mscy{
+  width: 550rpx;
+  height: 300rpx;
+  background-color: #FFFFFF;
+  border-radius: 40rpx;
+  margin-left: 50rpx;
+  margin-top: 150rpx;
+  padding: 50rpx;
+}
+.mscy-title{
+  color: black;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.mscy-btn{
+  background-image: url("http://39.105.101.0/assets/mscy_1.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 380rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-left: 100rpx;
+  margin-top: 30rpx;
+}
+.close-line{
+  width: 2px;
+  height: 80px;
+  background-color: #FFFFFF;
+  margin-left: 50%;
+}
+.close{
+  background-image: url("http://39.105.101.0/assets/tcgb_2.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 45%;
+}
+
+.input{
+  width: 700rpx;
+  height:50rpx;
+  background-color:#FFFFFF;
+  margin-left:25rpx;
+  margin-top:667rpx;
+}
+
+.send{
+  width: 700rpx;
+  height:70rpx;
+  text-align:center;
+  margin-top: 3rpx;
+}
+
+.yqhy::after{
+  border:none;
+}

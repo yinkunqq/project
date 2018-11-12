@@ -1,0 +1,96 @@
+
+
+<!-- 头部 -->
+<view class='toop'>
+ 
+<!-- 用户头像部分 -->
+   <view class='tchild'>        
+       <image class="head" src='{{data.discuss.head_img}}'></image>               <!-- 存放头像  -->
+      <text class='nickname'>{{data.discuss.nickname}}</text>            <!-- 存放昵称  -->
+      <view class='tbefore'>
+          <text>1分钟前</text>                       <!--  几分钟前  -->
+      </view>
+   </view>  
+
+<!-- 发布评论部分  -->
+   <view class='tchild'>
+
+      <view class='l'>
+            <text>{{data.discuss.discuss_content}}</text> 
+      </view>
+
+      <view class='r'>
+
+        <view class='dnumber'>
+            <text>{{data.discuss.laud}}</text>            <!--  评论数   -->
+        </view>
+
+        <view class='rimg' data-index="{{item.reply_id}}" bindtap='intoDis' data-index="{{data.discuss.discuss_id}}"></view>             <!-- 点赞头像  -->
+
+      </view>
+   </view>
+
+<!-- 查看原评论部分  -->
+   <view class='tchild'>
+
+        <view class='tl'>
+            <navigator url="../logs/logs">
+                 <view>查看原评论</view>    <!-- 点击跳转logs/logs -->
+            </navigator>
+        </view>      
+
+        <view class='tr'>   
+
+           <view class='trl'>
+                <view><image src='http://39.105.18.210/img/xiang.png'></image> </view>    <!-- 分享图标 -->
+                <view><text>{{data.discuss.forward}}</text> </view>   <!--  分享次数-->
+           </view> 
+
+           <view class='trr'>
+                <view><image src='http://39.105.18.210/img/discuss.png' bindtap='ClickDis' data-B_openid="{{data.discuss.openid}}"  data-DisID="{{data.discuss.discuss_id}}"></image></view>      <!-- 评论图标 -->
+                <view><text>{{data.discuss.mount}}</text></view>  <!-- 评论次数  --> 
+           </view>
+        </view>  
+   </view>
+<!-- end  -->
+</view>
+
+<!-- 评论区 -->
+<view class='top ' wx:for="{{reply}}" wx:for-item="item" wx:for-index="index">
+   <view class='tchild'>        
+        <image class="head" src='{{item.head_img}}'></image>               <!-- 存放头像  -->
+
+        <view><text class='tnickname' bindtap='ClickDis' data-Bopenid="{{item.openid}}" data-disID="{{data.discuss.discuss_id}}" data-flag="{{index}}">{{item.nickname}}</text> 
+        <text class='reply'>回复</text> 
+        <text class='b_name'>{{item.b_nickname}}</text></view>
+
+        <view class='tbefore'>
+            <text>1分钟前</text>                         <!--  几分钟前  -->
+        </view>
+   </view>  
+ <!-- end  -->  
+
+<!-- 发布评论部分  -->
+   <view class='tchild'>
+
+      <view class='l'>
+            <text>{{item.reply_content}}</text> 
+      </view>
+
+      <view class='r'>
+        <view class='dnumber'>
+            <text>{{item.laud}}</text>            <!--  评论数   -->
+        </view>
+
+        <view class='{{item.z_img}}' data-index="{{item.reply_id}}" bindtap='intoDis' data-nate="{{index}}"></view>   <!-- 点赞头像  -->
+      </view>
+   </view> 
+</view>
+
+
+<view class='views'><text>共{{data.discuss.mount}}条回复</text></view>
+
+<view class="open-view" hidden='{{layer}}'>
+   <view class='input'  hidden='{{put}}'><input bindblur="getMes"></input></view>
+   <view class='send'   hidden='{{send}}' bindtap='sendMes'><button>发送</button></view>
+</view>

@@ -1,0 +1,53 @@
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  margin-left: 20%;
+  float: left;
+  margin-top: 5%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+  margin-left: 2%;
+  float: left;
+  margin-top: 10%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.wechat_user{
+  margin-top: 5px;
+  width: 100%;
+  height: 190rpx;
+  background-image: url("http://59.110.227.10/Yii/backimg.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+.wechat_content button{
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-radius: 0%;
+  border-bottom-color: #D8D8D8;
+  color: #4A4A4A;
+  font-family: 微软黑体;
+}
+.wechat_buttom{
+  width: 100%;
+  background: #E5E5E5;
+  float: buttom;
+  height: 630rpx;
+}
+.wechat_point{
+  color: #E5E5E5;
+}
+.wechat_news{
+  color: #F15359;
+  font-size: 14px;
+}

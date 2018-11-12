@@ -1,0 +1,185 @@
+.top{display: flex;width:700rpx;height:268rpx;margin-bottom:20rpx;
+   flex-direction:column;
+   /* background-color: red; */
+   border:3rpx solid black;
+   margin-left:25rpx;
+   border-radius:25rpx;
+}
+
+.toop{display: flex;width:700rpx;height:268rpx;margin-bottom:20rpx;
+   flex-direction:column;
+   /* background-color: red; */
+   margin-left:25rpx;
+}
+
+.views{width:300rpx;height:40rpx;margin-bottom:20rpx;margin:auto;font-family: PingFangSC-Semibold;font-size: 14px;color: #4C4C4C;
+letter-spacing: 0;
+text-align: center;
+background-color:#F3A249;
+border-radius:25rpx;
+margin-bottom: 25rpx;
+}
+
+.tchild{ height:89rpx;margin-top:2rpx;font-size: 14px; float:left;
+}
+
+/*top 第一部分*/
+.head{        /*用户头像*/
+  width:48rpx;height:48rpx;border-radius:48rpx;margin-left:10rpx;margin-top:20rpx;margin-right:10rpx;float:left;
+}
+
+.tbefore{width:100rpx;height:34rpx;font-size:24rpx;font-family:PingFang-SC-Medium;color: #C2C2C2;letter-spacing: 0;text-align:center;
+         margin-top:20rpx;
+         float:left;
+}     /*几分钟前*/
+
+
+.tnickname{height:40rpx;margin-right:10rpx;font-size:28rpx;font-family:PingFang-SC-Medium;color: #C2C2C2;letter-spacing: 0;
+      margin-top:20rpx;
+      float:left;
+      /* background-color: red; */
+      font-family: PingFang-SC-Medium;
+      font-size: 14px;
+      color: #4A90E2;
+}     /*昵称*/
+
+.nickname{height:40rpx;margin-right:10rpx;font-size:28rpx;font-family:PingFang-SC-Medium;color: #C2C2C2;letter-spacing: 0;
+      margin-top:20rpx;
+      float:left;
+      /* background-color: red; */
+} 
+
+.b_name{height:40rpx;margin-right:10rpx;font-size:28rpx;font-family:PingFang-SC-Medium;color: #C2C2C2;letter-spacing: 0;
+      margin-top:20rpx;
+      float:left;
+}     
+
+.reply{height:40rpx;margin-right:10rpx;font-size:28rpx;font-family:PingFang-SC-Medium;color: #C2C2C2;letter-spacing: 0;
+      margin-top:20rpx;
+      float:left;
+}
+/*end*/
+
+
+
+/*评论区左浮动部分*/
+.l{width:610rpx;height:80rpx;margin-top:3rpx;float:left;font-family: PingFangSC-Semibold;font-size: 14px;color: #4A4A4A;    letter-spacing: 0.4px;
+   line-height: 20px;
+}
+
+/*评论区右浮动部分*/
+.r{ width:75rpx;height:80rpx;float:right;margin-top:3rpx;}
+
+.rimg{width:50rpx;height:50rpx;border-radius:48rpx;margin-left:15rpx;
+ background-image: url("http://39.105.18.210/img/zan.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+.zg_img{
+  width:50rpx;height:50rpx;border-radius:48rpx;margin-left:15rpx;
+  background-image: url("http://39.105.18.210/img/zg.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+/* 
+.rimg image{width:50rpx;height:50rpx;border-radius:100rpx;
+} */
+
+.dnumber{height:30rpx;margin-left:15rpx;font-family: PingFang-SC-Medium;font-size: 12px;
+   color: #FB5A01;
+   letter-spacing: 0;
+   text-align: center;
+   border-radius:100rpx;
+   /* width:44rpx; */
+   /* background-color:red; */
+ }
+ /*end*/
+
+
+/*top 第3部分*/
+.tl{
+   width:150rpx;
+   height:40rpx;
+   float:left;
+   margin-top:20rpx;
+   font-family: PingFang-SC-Medium;
+   font-size: 14px;
+   color: #4A90E2;
+   letter-spacing: 0;
+}
+
+.tl button{
+   width:150rpx;
+   height:40rpx;
+}
+
+.tr{width:280rpx;height:60rpx;float:right;margin-top:20rpx;
+}
+
+.trl{height:60rpx;border-radius:50px;float:left;margin-left:5rpx;font-family: PingFang-SC-Medium;
+   font-size: 12px;color: #B7B7B7;letter-spacing: 0;
+   text-align: center;
+   margin-left:5rpx;
+   margin-right:10rpx;
+   width:130rpx;
+}
+
+.trl view{
+  width:55rpx;height:55rpx;
+  margin-left:5rpx;
+  float:left;
+  margin-top:5rpx;
+  border-radius:100px;
+  text-align:center;
+}
+
+.trr{width:120rpx;height:60rpx;border-radius:50px;float:left;margin-right:5rpx;font-family: PingFang-SC-Medium;
+   font-size: 12px;color: #B7B7B7;letter-spacing: 0;
+   text-align: center;
+   margin-left:5rpx;
+}
+
+.trr view{
+  width:55rpx;height:55rpx;
+  margin-left:5rpx;
+  float:left;
+  margin-top:5rpx;
+  border-radius:100px;
+}
+
+.trr view image{
+  width:55rpx;height:55rpx;border-radius:100px;
+}
+
+.trl view image{
+  width:55rpx;height:55rpx;border-radius:100px;
+}
+
+.input{
+   background-color:#ffff;
+   width:700rpx;
+   height:70rpx;
+   margin-left:25rpx;
+   margin-top:90%;
+}
+
+.send{
+   width:700rpx;height:70rpx;
+   margin-left:25rpx;
+   margin-top:5rpx;
+}
+
+.open-view{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0rpx;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+
+
+
+
+   

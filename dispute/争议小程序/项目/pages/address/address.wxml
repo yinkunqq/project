@@ -1,0 +1,90 @@
+
+<!-- 头部 -->
+
+<view class='top'>
+ 
+<!-- 默认地址 -->
+   <view class='tchild'>        
+      <text>张三小姐</text>              <!-- 用户姓名  -->
+      <text>188****7081</text>            <!-- 存放昵称  -->
+      <image src='http://39.105.18.210/img/moren.png' class='moren'></image>
+   </view>  
+
+<!-- 详细信息  -->
+    <view class='tchild'>
+        <text>北京市海淀区北京八为研修学院</text> 
+    </view>
+
+    <view class='tchild'>
+
+        <view class='tl'>
+            <radio checked='true'></radio>
+            <view>默认地址</view>
+        </view>
+
+        <view class='tr'>
+           <view class='trl'>
+               <image src='http://39.105.18.210/img/bianji.png'></image>
+           </view>
+
+           <view class='trl trlt'>
+                <view>编辑</view>
+           </view>
+
+           <view class='trl'>
+               <image src='http://39.105.18.210/img/shanchu.png'></image>
+           </view>
+
+           <view class='trl'>
+               <view>删除</view>
+           </view>
+        </view>
+    </view>
+
+</view>
+
+
+<view class='top'>
+ 
+<!-- 默认地址 -->
+   <view class='tchild'>        
+      <text>张三小姐</text>              <!-- 用户姓名  -->
+      <text>188****7081</text>            <!-- 存放昵称  -->
+      <image src='http://39.105.18.210/img/moren.png' class='moren'></image>
+   </view>  
+
+<!-- 详细信息  -->
+    <view class='tchild'>
+        <text>北京市海淀区北京八为研修学院</text> 
+    </view>
+
+    <view class='tchild'>
+
+        <view class='tl'>
+            <radio></radio>
+            <view>默认地址</view>
+        </view>
+
+        <view class='tr'>
+           <view class='trl'>
+               <image src='http://39.105.18.210/img/bianji.png'></image>
+           </view>
+
+           <view class='trl trlt'>
+                <view>编辑</view>
+           </view>
+
+           <view class='trl'>
+               <image src='http://39.105.18.210/img/shanchu.png'></image>
+           </view>
+
+           <view class='trl'>
+               <view>删除</view>
+           </view>
+        </view>
+    </view>
+</view>
+
+<view class='new'>
+   <view bindtap='newdress'>新建地址</view>       <!-- 新建地址 去address.js 中找跳转地址-->
+</view>

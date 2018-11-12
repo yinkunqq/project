@@ -1,0 +1,109 @@
+<!-- 头 -->
+<view class="header">
+    <!-- 活动规则 -->
+    <view class="activ-role" bindtap='rule'>
+      活动规则
+    </view>
+
+    <navigator url='/pages/index/index?id={{invite_data.discuss_id}}'>模拟</navigator>
+
+    <!-- 活动产品 -->
+    <view class="activ-pro">
+      <image src="{{ip}}{{activity.activity.activity_img}}" class="activ-img"></image>
+
+      <view class="activ-pk">
+        <view class="nb laud" bindtap='nb' id='{{activity.activity.activity_id}}' data-flag="1"><text>{{activity.activity.laudPer}}%</text><text class="activ-pk-font">牛批</text></view>
+        <view class="pk"></view>
+        <view class="lj laud" bindtap='nb' id='{{activity.activity.activity_id}}' data-flag="0"><text>{{activity.activity.stampPer}}%</text><text class="activ-pk-font">垃圾</text></view>
+      </view>
+
+      <!-- 结束时间 -->
+      <view class="activ-date">{{title}}</view>
+    </view>
+</view>
+
+<!-- 主体 -->
+<view class="main">
+   
+   <view class="comment box-color" hidden='{{invite}}'> 
+      <!-- 头像 -->
+      <view class="my-info">
+        <image class="my-img" src="{{ip}}{{activity.activity.activity_img}}"></image>
+        <view class="my-name">{{invite_data.nickname}}</view>
+        <view class="my-z-info"><text class="my-z">{{invite_data.laud}}</text>个赞</view>
+      </view>
+      <view class="my-comment">{{discuss_content}}</view>
+      <button class="yqhy" open-type="share" data-id="{{invite_data.discuss_id}}">邀请好友帮我点赞</button>
+    </view>
+
+    <!-- 帮他点赞 -->
+    <view class="comment box-color" hidden='{{him_like_it}}'>
+      <!-- 头像 -->
+      <view class="my-info">
+        <image class="my-img" src="{{ip}}{{activity.activity.activity_img}}"></image>
+        <view class="my-name">{{invite_data.nickname}}</view>
+        <view class="my-z-info"><text class="my-z">{{invite_data.laud}}</text>个赞</view>
+      </view>
+      <view class="my-comment">{{invite_data.discuss_content}}</view>
+      <button class="yqhy" data-id="{{invite_data.discuss_id}}" bindtap='Help_him'>帮他点赞</button>
+      </view>
+   
+    <!-- 评论 -->
+    <view class="comment"  wx:for="{{activity.discuss}}" wx:for-item = "item" wx:for-index="index">
+      <!-- 获奖作品 -->
+      <view class="prize" wx:if="{{index < 3}}"></view>
+      <!-- 头像 -->
+      <view class="comment-user">
+        <image src="{{item.head_img}}" class="comment-portrait"></image>
+        <view class="comment-name">{{item.nickname}}</view>
+        <view class="comment-date">1分钟前</view>
+        <!-- 评论内容 -->
+        <view class="comment-content">{{item.discuss_content}}</view>
+      </view>
+      <!-- 赞 --> 
+      <view class="z-info"><text class="z-count">{{item.laud}}</text><view class="{{item.z_img}}" bindtap='discussLaud' data-id="{{item.discuss_id}}" data-index="{{index}}"></view></view>
+      <!-- 评论底部 -->
+      <view class="comment-foot">
+        <view class="foot-left"><view>嘿嘿嘿</view>等人<view>共{{item.mount}}条回复</view></view>
+
+        <view class="foot-right">
+            <view class="comment-forward"></view>
+            <view>{{item.forward}}</view>
+            <view class="comment-count" bindtap='discuss' id="{{item.discuss_id}}"></view>
+            <view>{{item.mount}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 上拉加载更多 -->
+    <view class="next-page" bindtap='loadMore'>加载更多</view>
+</view>
+
+<!-- 参与讨论 -->
+<view class="footer">
+  <view class="cy-tl" bindtap='partDiscuss'>参与讨论</view>
+  <button class="cy-user" bindgetuserinfo='user' open-type='getUserInfo'><input type='text'></input></button>
+</view>
+
+<!-- bindtap='partDiscuss' -->
+
+
+<!-- 帮好友点赞成功 -->
+<view class="open-view" hidden='{{layer}}'>
+  <view class="mscy" hidden='{{friend}}'>
+    <view class="mscy-title">帮好友<text class="red">点赞成功</text>了</view>
+    <view class="mscy-content">参与讨论该商品，获赞最高<text class="red">免费送</text>您一个哦!</view>
+    <view class="mscy-btn" bindtap='ltsGo'>马上参与</view>
+  </view>
+  <view class="close-view" hidden='{{grenade}}'>
+    <view class="close-line"></view>
+    <view class="close" bindtap='close'></view>
+  </view>
+
+  <view class='input' hidden='{{parti}}'>
+      <input type='text' focus='{{focus}}' bindblur="discuss_content"></input>
+      <button type='default' hover-stop-propagation="true" class='send' bindtap='sendMsg'>发送</button>
+  </view>
+
+</view>
+
